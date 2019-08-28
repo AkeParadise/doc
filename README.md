@@ -1,5 +1,5 @@
 # Premable
-
+```
 LIP: 0001
 Title: Anchor/Client interoperability
 Author: SDF
@@ -7,8 +7,8 @@ Status: Active
 Created: 2019-08-28
 Updated: 2019-08-28
 Version 0.1.0
-
-# Simple Summary
+```
+# Summary
 
 This LIP defines the standard of Lightnet's interface.
 
