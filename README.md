@@ -35,3 +35,23 @@ This protocol involves the transfer of value, and so HTTPS is required for all e
 # Remittances Validation
 
   Clients send a request which containing information collected from customer, and Lightnet will returns a response indicating the transaction can continue or an error indicating an issue with the request.
+  
+# Request
+
+    POST /v1/remittances.validate
+    
+Request Parameters:
+
+|Name                |Type                          |Description                         |
+|----------------|-------------------------------|-----------------------------|
+|deliveryMethod|string            |A delivery method which the sender defines when he does the transaction at the sending party.           |
+|destinationCountry|string            |            |
+|destinationOperatorCode|string            |            |
+|receiver|object            |            |
+|remark|string            |            |
+|sender|object            |            |
+|sourceCountry|string            |            |
+|sourceTransactionId|string            |            |
+|transactionCurrency|string            |            |
+|withdrawableAmount|string            |            |
+
