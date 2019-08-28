@@ -42,16 +42,19 @@ This protocol involves the transfer of value, and so HTTPS is required for all e
     
 Request Parameters:
 
-|Name                |Type                          |Description                         |
+|Name            |Type                           |Description                  |
 |----------------|-------------------------------|-----------------------------|
 |deliveryMethod|string            |A delivery method which the sender defines when he does the transaction at the sending party.           |
-|destinationCountry|string            |            |
+|destinationCountry     |string            |            |
 |destinationOperatorCode|string            |            |
-|receiver|object            |            |
-|remark|string            |            |
-|sender|object            |            |
-|sourceCountry|string            |            |
-|sourceTransactionId|string            |            |
-|transactionCurrency|string            |            |
-|withdrawableAmount|string            |            |
+|receiver               |object            |            |
+|remark                 |string            |            |
+|sender                 |object            |            |
+|sourceCountry          |string            |            |
+|sourceTransactionId    |string            |            |
+|transactionCurrency    |string            |            |
+|withdrawableAmount     |string            |            |
+
+receiver fields:
+
 
