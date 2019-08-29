@@ -11,6 +11,7 @@ Version 0.1.0
 # Summary
 
 This LIP-0001 defines the standard of Lightnet's interface for integration with third party. There are 3 events type, validate, commit and callback.
+
 ```
 {
    "apiVersion":"v1",
