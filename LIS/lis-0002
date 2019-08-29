@@ -1,13 +1,14 @@
 # Premable
-```
-LIP: 0001
-Title: trusted partner interoperability
-Author: Lightnet
-Status: Active
-Created: 2019-08-28
-Updated: 2019-08-29
-Version 0.1.0
-```
+
+   LIP: 0001
+   Title: trusted partner interoperability
+   Author: Lightnet
+   Status: Active
+   Created: 2019-08-28
+   Updated: 2019-08-29
+   Version 0.1.0
+
+
 # Summary
 
 This LIP-0001 defines the standard of Lightnet's interface for integration with third party. There are 3 events type, validate, commit and callback.
