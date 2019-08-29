@@ -1,1 +1,55 @@
+# Premable
+```
+LIP: 0001
+Title: trusted partner interoperability
+Author: Lightnet
+Status: Active
+Created: 2019-08-28
+Updated: 2019-08-29
+Version 0.1.0
+```
+# Summary
 
+This LIP-0001 defines the standard of Lightnet's interface for integration with third party. There are 3 events type, validate, commit and callback.
+```
+{
+   "apiVersion":"v1",
+   "createdAt":"2019-08-29T04:38:33Z",
+   "data":{
+      "deliveryMethod":"wallet",
+      "destinationCountry":"KHM",
+      "destinationOperatorCode":"lyhour-unmock",
+      "destinationTransactionFeeAmount":"10.0000",
+      "destinationTransactionFeeCurrency":"USD",
+      "preview":true,
+      "receiver":{
+         "address":"This is receiver address",
+         "countryCode":"855",
+         "mobile":"123456789",
+         "name":"This is receiver name"
+      },
+      "remark":"This is Velo test remark",
+      "sender":{
+         "address":"LNT-1558",
+         "countryCode":"66",
+         "dateOfBirth":"1999-08-29",
+         "document":{
+            "expiryDate":"2019-08-30",
+            "issueDate":"2019-08-28",
+            "number":"3UTO6908061F9406236ZE184226B00"
+         },
+         "mobile":"123456789",
+         "name":"This is sender name",
+         "purpose":"This is Velo test purpose 50 characters longdummy"
+      },
+      "sourceCountry":"THA",
+      "sourceOperatorCode":"automate-test",
+      "sourceTransactionId":"MG-0012345",
+      "transactionCurrency":"USD",
+      "transactionId":"e1f35377-0712-4570-bc9c-4f1e798e487d",
+      "withdrawableAmount":"1.0250"
+   },
+   "eventName":"remit.validate",
+   "id":"evnt_dbb8d0d9-ca16-11e9-8225-3a23ece9f2e9",
+   "previousData":null
+}```
